@@ -17,7 +17,11 @@ function imprimeMensagem() {
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo() {
+function calculaAreaRetangulo(altura, largura) {
+  let altura= +prompt("Escreva a altura do retângulo:")
+  let largura= +prompt("Escreva a largura do retângulo:")
+  resultado=altura*largura;
+  console.log(`A área do seu retângulo é de ${resultado}`);
   // implemente sua lógica aqui
 
 }
