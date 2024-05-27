@@ -17,7 +17,7 @@ function imprimeMensagem() {
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo(altura, largura) {
+function calculaAreaRetangulo() {
   let altura= +prompt("Escreva a altura do retângulo:")
   let largura= +prompt("Escreva a largura do retângulo:")
   resultado=altura*largura;
@@ -28,6 +28,12 @@ function calculaAreaRetangulo(altura, largura) {
 
 // EXERCÍCIO 02
 function imprimeIdade() {
+
+  anoAtual=+prompt("Escreva seu ano atual")
+  anoNascimento=+prompt("Escreva seu ano de nascimento")
+  idade=anoAtual-anoNascimento
+console.log("Sua idade é:",idade)
+
   // implemente sua lógica aqui
 
 }
