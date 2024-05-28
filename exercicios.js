@@ -21,7 +21,7 @@ function calculaAreaRetangulo() {
   let altura= +prompt("Escreva a altura do retângulo:")
   let largura= +prompt("Escreva a largura do retângulo:")
   resultado=altura*largura;
-  console.log(`A área do seu retângulo é de ${resultado}`);
+  console.log(resultado);
   // implemente sua lógica aqui
 
 }
@@ -32,7 +32,7 @@ function imprimeIdade() {
   anoAtual=+prompt("Escreva seu ano atual")
   anoNascimento=+prompt("Escreva seu ano de nascimento")
   idade=anoAtual-anoNascimento
-console.log("Sua idade é:",idade)
+console.log(idade)
 
   // implemente sua lógica aqui
 
