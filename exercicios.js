@@ -109,7 +109,11 @@ return array.pop()
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
-
+const ultimo = array.pop()
+const primeiro = array.shift()
+array.unshift(ultimo)
+array.push(primeiro)
+return array
 }
 
 // EXERCÍCIO 12
