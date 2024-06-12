@@ -81,6 +81,8 @@ return string
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
+const ingressosVendidos = custo/valorIngresso
+return ingressosVendidos
 
 }
 
