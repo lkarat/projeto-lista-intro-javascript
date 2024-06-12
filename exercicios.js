@@ -119,6 +119,10 @@ return array
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
+  string1 = string1.toUpperCase()
+  string2 = string2.toUpperCase()
+
+  return string1===string2
 
 }
 
