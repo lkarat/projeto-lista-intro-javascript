@@ -63,7 +63,11 @@ console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
-
+const cores=[]
+cores.push(prompt("Diga sua primeira cor favorita"))
+cores.push(prompt("Diga sua segunda cor favorita"))
+cores.push(prompt("Diga sua terceira cor favorita"))
+console.log(cores);
 }
 
 // EXERCÍCIO 06
