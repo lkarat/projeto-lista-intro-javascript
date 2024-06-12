@@ -96,6 +96,8 @@ return string1.length === string2.length
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
 
+return array[0]
+
 }
 
 // EXERCÍCIO 10
