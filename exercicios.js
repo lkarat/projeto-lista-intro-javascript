@@ -73,6 +73,8 @@ console.log(cores);
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
+string=string.toUpperCase()
+return string
 
 }
 
