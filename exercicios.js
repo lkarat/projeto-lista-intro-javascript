@@ -40,6 +40,10 @@ console.log(idade)
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
+const imc = peso/(altura*altura)
+return imc
+
+
   // implemente sua lógica aqui
 
 }
