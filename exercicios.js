@@ -129,6 +129,16 @@ function checaIgualdadeDesconsiderandoCase(string1, string2) {
 // EXERCÍCIO 13
 function checaRenovacaoRG() {
   // implemente sua lógica aqui
+anoAtual=prompt("Escreva ano atual")
+anoNascimento=prompt("Escreva ano nascimento")
+anoCarteiraEmitida=prompt("Escreva ano em que sua carteira foi emitida")
+
+pessoasDeAte20 = anoAtual-anoNascimento <=20
+
+
+
+console.log();
+
 
 }
 
