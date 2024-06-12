@@ -50,6 +50,11 @@ return imc
 
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
+const nome = prompt('Escreva seu nome:')
+const idade = prompt('Escreva sua idade:')
+const email = prompt('Escreva seu e-mail:')
+console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`);
+
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
 
