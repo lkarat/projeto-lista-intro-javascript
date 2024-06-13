@@ -152,6 +152,10 @@ console.log(resultado1||resultado2||resultado3);
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
 
+const divisivelPor400 = ano%100===0&&ano%400===0
+ano=ano%4===0&&divisivelPor400
+
+
 }
 
 // EXERCÍCIO 15
