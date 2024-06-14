@@ -162,4 +162,14 @@ function checaAnoBissexto(ano) {
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
 
+const maiorDe18 = prompt("Tu és maior de 18? Responda com sim ou não")
+const ehMaiorde18 = maiorDe18.includes("sim") 
+
+const ensinoMedio = prompt("Tu tens ensino médio completo? Responda com sim ou não")
+const temEnsinoMedio = ensinoMedio.includes("sim")
+
+const disponibilidade = prompt("Tu tens disponibilidade exclusiva durante os horários do curso? Responda com sim ou não")
+const temDisponibilidade = disponibilidade.includes("sim")
+
+console.log(ehMaiorde18&&temEnsinoMedio&&temDisponibilidade);
 }
